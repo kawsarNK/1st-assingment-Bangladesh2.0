@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    width: 270px;
+    height: 56px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 17px;
+    border: none;
+}
+
+#hero {
+    display: flex;
+    background-color: rgb(198, 228, 214);
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    height: 560px;
+    border-radius: 24px;
+    padding: 80px 100px;
+}
+
+#hero .hero-content {
+    width: 622px;
+    height: 326px;
+}
+
+#hero .hero-content .hero-subtitle {
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#hero .hero-content .hero-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#hero .hero-img {
+    width: 474.03px;
+    height: 329.21px;
+    padding-right: 60px;
+    padding-bottom: 150px;
+}
