@@ -23,7 +23,7 @@
     line-height: 22px;
     letter-spacing: 0%;
     text-align: center;
-    padding: 17px;
+    padding: 17px 34px 17px 34px;
     border: none;
 }
 
@@ -36,6 +36,7 @@
     height: 560px;
     border-radius: 24px;
     padding: 80px 100px;
+    margin-bottom: 80px;
 }
 
 #hero .hero-content {
@@ -51,6 +52,7 @@
     line-height: 29px;
     letter-spacing: 0%;
     text-align: left;
+    margin-bottom: 16px;
 }
 
 #hero .hero-content .hero-title {
@@ -61,6 +63,7 @@
     line-height: 67px;
     letter-spacing: 0%;
     text-align: left;
+    margin-bottom: 20px;
 }
 
 #hero .hero-img {
@@ -68,4 +71,30 @@
     height: 329.21px;
     padding-right: 60px;
     padding-bottom: 150px;
+}
+
+/* Card portion styles */
+.card-box {
+    width: 1280px;
+    margin: 80px 0; /* space top and bottom */
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; /* make all cards same height */
+    gap: 32px; /* gap between cards */
+}
+
+.card {
+    background-color: rgb(198, 228, 214);
+    border-radius: 16px;
+    padding: 32px;
+    width: 100%; /* take available width */
+    max-width: 400px; /* limit max size */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* space out content inside */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); /* optional: add soft shadow */
 }
