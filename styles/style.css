@@ -200,6 +200,7 @@ p.card-description {
     margin-top: 80px;
     margin-bottom: 80px;
     padding: 20px;
+    margin-bottom: 0%;
 }
 
 .news-container {
@@ -258,7 +259,12 @@ p.card-description {
     background-color: #5ca77b;
 }
 
+.donates {
+    margin-top: 0px;
+}
+
 .donate {
+
 
     background-color: rgb(243, 239, 239);
     text-align: center;
@@ -353,11 +359,11 @@ input[type="text"] {
 }
 
 .subcribe-part {
-    background-color: rgb(69, 218, 136);
+    margin: 40px;
+    background-color: rgb(183, 232, 206);
+    border-radius: 20px;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    margin-bottom: 40px;
+    padding: 20px;
 }
 
 .subscribe-box {
@@ -373,6 +379,9 @@ input[type="text"] {
 
 .subscribe-button {
     display: inline;
+    width: fit-content;
+    margin-bottom: 20px;
+
 }
 
 .btn-subscribe {
@@ -388,7 +397,7 @@ input[type="text"] {
     font-weight: 600;
     line-height: 20px;
     text-align: center;
-    /* padding: 10px; */
+    padding: 10px;
     border: none;
     cursor: pointer;
     transition: 0.3s;
